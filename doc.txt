@@ -1,0 +1,32 @@
+What should have for backend:
+    1. login:
+        phone number + password
+            -- require send sms
+            -- third party api
+            -- secure credential: password hashing
+            -- limit rate
+
+        third party authentication:
+            -- auth0
+
+        (possible) facial recognition authentication
+            -- openCV
+            -- store facial information
+
+        (possible) tiktok account:
+            -- require their api
+
+    2. wallet system integrate with stripe/paypal for transaction
+        -- bind with a bank card
+        -- secure card information
+        -- topup with the bank card
+        -- easy transaction
+        -- transaction history
+        -- connection list
+        -- payment
+            scan QR code to pay
+        -- (possible) topup other card: ezlink...
+        -- features:
+            set transaction limit, can only be changed once a day and need sms authentication
+
+    3. different roles and permissions
